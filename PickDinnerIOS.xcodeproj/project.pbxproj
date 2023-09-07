@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E26749E12AA9A29700F89659 /* PickDinnerIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26749E02AA9A29700F89659 /* PickDinnerIOSApp.swift */; };
+		E26749E32AA9A29700F89659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26749E22AA9A29700F89659 /* ContentView.swift */; };
+		E26749E52AA9A29900F89659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26749E42AA9A29900F89659 /* Assets.xcassets */; };
+		E26749E82AA9A29900F89659 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26749E72AA9A29900F89659 /* Preview Assets.xcassets */; };
+		E26749F22AA9A29900F89659 /* PickDinnerIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26749F12AA9A29900F89659 /* PickDinnerIOSTests.swift */; };
+		E26749FC2AA9A29900F89659 /* PickDinnerIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26749FB2AA9A29900F89659 /* PickDinnerIOSUITests.swift */; };
+		E26749FE2AA9A29900F89659 /* PickDinnerIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26749FD2AA9A29900F89659 /* PickDinnerIOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26749EE2AA9A29900F89659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26749D52AA9A29700F89659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26749DC2AA9A29700F89659;
+			remoteInfo = PickDinnerIOS;
+		};
+		E26749F82AA9A29900F89659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26749D52AA9A29700F89659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26749DC2AA9A29700F89659;
+			remoteInfo = PickDinnerIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E26749DD2AA9A29700F89659 /* PickDinnerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickDinnerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26749E02AA9A29700F89659 /* PickDinnerIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDinnerIOSApp.swift; sourceTree = "<group>"; };
+		E26749E22AA9A29700F89659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E26749E42AA9A29900F89659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26749E72AA9A29900F89659 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E26749ED2AA9A29900F89659 /* PickDinnerIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickDinnerIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26749F12AA9A29900F89659 /* PickDinnerIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDinnerIOSTests.swift; sourceTree = "<group>"; };
+		E26749F72AA9A29900F89659 /* PickDinnerIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickDinnerIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26749FB2AA9A29900F89659 /* PickDinnerIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDinnerIOSUITests.swift; sourceTree = "<group>"; };
+		E26749FD2AA9A29900F89659 /* PickDinnerIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDinnerIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26749DA2AA9A29700F89659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26749EA2AA9A29900F89659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26749F42AA9A29900F89659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E26749D42AA9A29700F89659 = {
+			isa = PBXGroup;
+			children = (
+				E26749DF2AA9A29700F89659 /* PickDinnerIOS */,
+				E26749F02AA9A29900F89659 /* PickDinnerIOSTests */,
+				E26749FA2AA9A29900F89659 /* PickDinnerIOSUITests */,
+				E26749DE2AA9A29700F89659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E26749DE2AA9A29700F89659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26749DD2AA9A29700F89659 /* PickDinnerIOS.app */,
+				E26749ED2AA9A29900F89659 /* PickDinnerIOSTests.xctest */,
+				E26749F72AA9A29900F89659 /* PickDinnerIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26749DF2AA9A29700F89659 /* PickDinnerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				E26749E02AA9A29700F89659 /* PickDinnerIOSApp.swift */,
+				E26749E22AA9A29700F89659 /* ContentView.swift */,
+				E26749E42AA9A29900F89659 /* Assets.xcassets */,
+				E26749E62AA9A29900F89659 /* Preview Content */,
+			);
+			path = PickDinnerIOS;
+			sourceTree = "<group>";
+		};
+		E26749E62AA9A29900F89659 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E26749E72AA9A29900F89659 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E26749F02AA9A29900F89659 /* PickDinnerIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E26749F12AA9A29900F89659 /* PickDinnerIOSTests.swift */,
+			);
+			path = PickDinnerIOSTests;
+			sourceTree = "<group>";
+		};
+		E26749FA2AA9A29900F89659 /* PickDinnerIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E26749FB2AA9A29900F89659 /* PickDinnerIOSUITests.swift */,
+				E26749FD2AA9A29900F89659 /* PickDinnerIOSUITestsLaunchTests.swift */,
+			);
+			path = PickDinnerIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26749DC2AA9A29700F89659 /* PickDinnerIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2674A012AA9A29900F89659 /* Build configuration list for PBXNativeTarget "PickDinnerIOS" */;
+			buildPhases = (
+				E26749D92AA9A29700F89659 /* Sources */,
+				E26749DA2AA9A29700F89659 /* Frameworks */,
+				E26749DB2AA9A29700F89659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickDinnerIOS;
+			productName = PickDinnerIOS;
+			productReference = E26749DD2AA9A29700F89659 /* PickDinnerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26749EC2AA9A29900F89659 /* PickDinnerIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2674A042AA9A29900F89659 /* Build configuration list for PBXNativeTarget "PickDinnerIOSTests" */;
+			buildPhases = (
+				E26749E92AA9A29900F89659 /* Sources */,
+				E26749EA2AA9A29900F89659 /* Frameworks */,
+				E26749EB2AA9A29900F89659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26749EF2AA9A29900F89659 /* PBXTargetDependency */,
+			);
+			name = PickDinnerIOSTests;
+			productName = PickDinnerIOSTests;
+			productReference = E26749ED2AA9A29900F89659 /* PickDinnerIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E26749F62AA9A29900F89659 /* PickDinnerIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2674A072AA9A29900F89659 /* Build configuration list for PBXNativeTarget "PickDinnerIOSUITests" */;
+			buildPhases = (
+				E26749F32AA9A29900F89659 /* Sources */,
+				E26749F42AA9A29900F89659 /* Frameworks */,
+				E26749F52AA9A29900F89659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26749F92AA9A29900F89659 /* PBXTargetDependency */,
+			);
+			name = PickDinnerIOSUITests;
+			productName = PickDinnerIOSUITests;
+			productReference = E26749F72AA9A29900F89659 /* PickDinnerIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26749D52AA9A29700F89659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E26749DC2AA9A29700F89659 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E26749EC2AA9A29900F89659 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E26749DC2AA9A29700F89659;
+					};
+					E26749F62AA9A29900F89659 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E26749DC2AA9A29700F89659;
+					};
+				};
+			};
+			buildConfigurationList = E26749D82AA9A29700F89659 /* Build configuration list for PBXProject "PickDinnerIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E26749D42AA9A29700F89659;
+			productRefGroup = E26749DE2AA9A29700F89659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26749DC2AA9A29700F89659 /* PickDinnerIOS */,
+				E26749EC2AA9A29900F89659 /* PickDinnerIOSTests */,
+				E26749F62AA9A29900F89659 /* PickDinnerIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26749DB2AA9A29700F89659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26749E82AA9A29900F89659 /* Preview Assets.xcassets in Resources */,
+				E26749E52AA9A29900F89659 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26749EB2AA9A29900F89659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26749F52AA9A29900F89659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26749D92AA9A29700F89659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26749E32AA9A29700F89659 /* ContentView.swift in Sources */,
+				E26749E12AA9A29700F89659 /* PickDinnerIOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26749E92AA9A29900F89659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26749F22AA9A29900F89659 /* PickDinnerIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26749F32AA9A29900F89659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26749FC2AA9A29900F89659 /* PickDinnerIOSUITests.swift in Sources */,
+				E26749FE2AA9A29900F89659 /* PickDinnerIOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26749EF2AA9A29900F89659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26749DC2AA9A29700F89659 /* PickDinnerIOS */;
+			targetProxy = E26749EE2AA9A29900F89659 /* PBXContainerItemProxy */;
+		};
+		E26749F92AA9A29900F89659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26749DC2AA9A29700F89659 /* PickDinnerIOS */;
+			targetProxy = E26749F82AA9A29900F89659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E26749FF2AA9A29900F89659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2674A002AA9A29900F89659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2674A022AA9A29900F89659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickDinnerIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cunwanglaodi.PickDinnerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2674A032AA9A29900F89659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickDinnerIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cunwanglaodi.PickDinnerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2674A052AA9A29900F89659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cunwanglaodi.PickDinnerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickDinnerIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickDinnerIOS";
+			};
+			name = Debug;
+		};
+		E2674A062AA9A29900F89659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cunwanglaodi.PickDinnerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickDinnerIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickDinnerIOS";
+			};
+			name = Release;
+		};
+		E2674A082AA9A29900F89659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cunwanglaodi.PickDinnerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickDinnerIOS;
+			};
+			name = Debug;
+		};
+		E2674A092AA9A29900F89659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cunwanglaodi.PickDinnerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickDinnerIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26749D82AA9A29700F89659 /* Build configuration list for PBXProject "PickDinnerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26749FF2AA9A29900F89659 /* Debug */,
+				E2674A002AA9A29900F89659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2674A012AA9A29900F89659 /* Build configuration list for PBXNativeTarget "PickDinnerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2674A022AA9A29900F89659 /* Debug */,
+				E2674A032AA9A29900F89659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2674A042AA9A29900F89659 /* Build configuration list for PBXNativeTarget "PickDinnerIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2674A052AA9A29900F89659 /* Debug */,
+				E2674A062AA9A29900F89659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2674A072AA9A29900F89659 /* Build configuration list for PBXNativeTarget "PickDinnerIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2674A082AA9A29900F89659 /* Debug */,
+				E2674A092AA9A29900F89659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26749D52AA9A29700F89659 /* Project object */;
+}
