@@ -25,21 +25,27 @@ struct ContentView: View {
                 .frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
                 .imageScale(.large)
                 
-            Text("今天吃什么？").bold().font(.largeTitle)
+            Text("今天吃什么？").bold()
             if res != ""  {
-                Text(res).bold().font(.largeTitle).foregroundColor(.green)
+                Text(res).bold().foregroundColor(.green)
             }
             // 随机按钮
-            Button(action: {res = generateRandomFood()},Label:{Text(res == .none?"1":"2")}) {
-              
-            }.font(.largeTitle).buttonStyle(.borderedProminent).foregroundColor(.white).shadow(radius: 12)
-            
+            Button(role:.none) {
+                res = generateRandomFood()
+            }label: {
+                Text(res == ""
+                     ?"告诉我"
+                     :"换一个").frame(width: 300)
+            }.bold().buttonStyle(.borderedProminent ).foregroundColor(.white).shadow(color: .black, radius: 1.5).buttonBorderShape(.capsule).controlSize(.large)
             // 重置按钮
-            Button(action:{res = ""}) {
-                Label("", systemImage: "arrow.clockwise.circle.fill")
-            }.font(.largeTitle).foregroundColor(.blue).disabled(res=="")
+            Button(role:.destructive) {
+                res = ""
+            }label: {
+                Text("RESET").frame(width: 300)
+            }.disabled(res=="").buttonStyle(.borderedProminent).buttonBorderShape(.capsule).controlSize(.large)
         }
-        .padding().animation(.easeInOut(duration: 1/5), value: res)
+        .padding().animation(.easeInOut(duration: 1/2), value: res).font(.largeTitle)
+        .frame(maxWidth: .infinity,maxHeight: .infinity ).background(Color(.secondarySystemBackground))
     }
 }
 
