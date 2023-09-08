@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		E26749DD2AA9A29700F89659 /* PickDinnerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickDinnerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26749E02AA9A29700F89659 /* PickDinnerIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDinnerIOSApp.swift; sourceTree = "<group>"; };
-		E26749E22AA9A29700F89659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E26749E22AA9A29700F89659 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		E26749E42AA9A29900F89659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E26749E72AA9A29900F89659 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E26749ED2AA9A29900F89659 /* PickDinnerIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickDinnerIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
